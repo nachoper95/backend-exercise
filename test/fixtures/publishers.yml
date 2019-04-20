@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  description: MyString
+  adPrice: 9.99
+  currency: MyString
+  address: MyString
+  phone: MyString
+
+two:
+  name: MyString
+  description: MyString
+  adPrice: 9.99
+  currency: MyString
+  address: MyString
+  phone: MyString

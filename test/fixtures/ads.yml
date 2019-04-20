@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  business: one
+  publisher: one
+  title: MyString
+  description: MyString
+  start_date: 2019-04-19 21:01:11
+  end_date: 2019-04-19 21:01:11
+  print_version_url: MyString
+
+two:
+  business: two
+  publisher: two
+  title: MyString
+  description: MyString
+  start_date: 2019-04-19 21:01:11
+  end_date: 2019-04-19 21:01:11
+  print_version_url: MyString
