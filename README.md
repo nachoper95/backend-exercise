@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Requirements:
 
-Things you may want to cover:
+- Postgres installed
+- Ruby 2.4.2 or greater
+- Rails 5.1.4 or greater
 
-- Ruby version
+Steps tu run the project:
 
-- System dependencies
-
-- Configuration
-
-- Database creation
-
-- Database initialization
-
-- How to run the test suite
-
-- Services (job queues, cache servers, search engines, etc.)
-
-- Deployment instructions
-
-- ...
+1- Execute command to install gems: bundle install
+2- Command to create database: rails db:create
+3- Run the migrations: rails db:migrate
+4- Run the project: rails s
