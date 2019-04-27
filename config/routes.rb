@@ -4,5 +4,9 @@ Rails.application.routes.draw do
   namespace :api do
     resources :publishers
     resources :businesses
+    resources :ads do
+      put 'verify'
+      put 'cancelled'
+    end
   end
 end

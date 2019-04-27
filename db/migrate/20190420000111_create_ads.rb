@@ -8,7 +8,7 @@ class CreateAds < ActiveRecord::Migration[5.1]
       t.datetime :start_date
       t.datetime :end_date
       t.string :print_version_url
-      t.string :state
+      t.integer :state, default: 0
 
       t.timestamps
     end

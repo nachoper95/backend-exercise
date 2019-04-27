@@ -12,15 +12,18 @@
 
 ActiveRecord::Schema.define(version: 20190420000111) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "ads", force: :cascade do |t|
-    t.integer "business_id"
-    t.integer "publisher_id"
+    t.bigint "business_id"
+    t.bigint "publisher_id"
     t.string "title"
     t.string "description"
     t.datetime "start_date"
     t.datetime "end_date"
     t.string "print_version_url"
-    t.string "state"
+    t.integer "state", default: 0
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["business_id"], name: "index_ads_on_business_id"
