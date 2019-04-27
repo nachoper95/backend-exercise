@@ -8,7 +8,7 @@ Requirements:
 
 Steps tu run the project:
 
-1- Execute command to install gems: bundle install
-2- Command to create database: rails db:create
-3- Run the migrations: rails db:migrate
-4- Run the project: rails s
+1. Execute command to install gems: bundle install
+2. Command to create database: rails db:create
+3. Run the migrations: rails db:migrate
+4. Run the project: rails s
